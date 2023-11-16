@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>profile page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+  color: #222;
+  background:violet;
+}
+
+a {
+  text-decoration:none;
+  color: #999;
+}
+a:hover {
+  color: #fff53327;
+}
+.main-nav {
+  width: 100%;
+  background: black;
+  height: 90px;
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a:hover {
+  color: white
+}
+
+header {
+  text-align: center;
+  background: url('images/background.jpg') no-repeat center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+header .profile-image {
+  margin-top: 50px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 10px solid mediumvioletred;
+  transition: all .5s;
+}
+header .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.card1{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align:center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  flex-grow: 1;
+}
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align:center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  flex-grow: 1;
+}
+.card:hover {
+  border-color: #53d6c5;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background:teal;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #4088b9;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: 8px;
+  font-size:14px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+  .center {
+    justify-content: center;
+  }
+
+  header {
+    height: 470px;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+
+
+  main {
+    padding-top: 20px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  .experience {
+    flex-grow: 2;
+    max-width: none;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 50px;
+  }
+  .fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 12px;
+}
+
+.fa:hover {
+    opacity:1;
+}
+.fa-google {
+  background: #39c7dd;
+  color: white;
+}
+
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+  .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+  </style>
+  </head>
+  <body>
+    <nav class="main-nav">
+        <ul class="nav" style="list-style-type:none">
+          <li class="name"><h1>PRIYADHARSHINI R</h1></li>
+          <li><a href="https://support.google.com/websearch/answer/463?hl=en">Home</a></li>
+          <li><a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">Experience</a></li>
+        </ul>
+    </nav>
+
+    <header>
+      <img src="C:\Users\PRIYADHARSHINI R\OneDrive\Documents\my pic.jpg" alt="PD's image" class="profile-image ">
+      <h1 class="tag name">Hello, I’m Priyadharshini R.</h1>
+      <p class="professional" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif"><h3>UI/UX designer.</h3></p>
+    </header>
+
+    <main class="center">
+        <section class="card experience">
+          <h2>My Experience</h2>
+          <p>I have previously worked with two projects in html and css,i blindly believe in my skills and I have 
+          confidence to work on it.</p>
+        </section>
+        <section class="card">
+            <h2>Technologies</h2>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Sass</li>
+                <li>React</li>
+            </ul>
+        </section>
+
+        <section class="card1">
+            <h2>languages</h2>
+            <ul class="skills">
+                <li>C++</li>
+                <li>PYTHON</li>
+                <li>C</li>
+                <li>Java</li>
+            </ul>
+        </section>
+
+    </main>
+    <a href="https://www.google.com/" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/in/priyadharshini-r-966775290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.snapchat.com/add/psriranjani?share_id=TOwgzuHsM7w&locale=en-US" class="fa fa-snapchat-ghost"></a>
+    <footer>
+      <p class="copyright">© Copyright 2023,priyadharshini</p>
+    </footer>
+  </body>
+  </html>
